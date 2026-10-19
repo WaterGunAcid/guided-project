@@ -327,7 +327,6 @@ iframe {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        border: 2px solid red;
         width: 100%;
     }
 
