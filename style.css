@@ -422,3 +422,85 @@ footer {
     font-weight: 400;
     font-style: normal;
 }
+
+.places {
+    display: flex;
+    justify-content: space-around;
+}
+
+.placeImg {
+    width: 100%;
+    min-height: 200px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.cityHeader {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 75px;
+    font-weight: 300;
+}
+
+.subscription-section {
+    display: flex;
+    justify-content: space-around;
+    column-gap: 68px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 70px 24px;
+}
+
+.eatHealthyToday {
+    margin: 0 0 80px;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 300;
+}
+
+.todayBoxOne {
+    padding: 20px;
+    background: #fbfbfb;
+    border-bottom: 1px solid #e8e8e8;
+    border-radius: 4px 4px 0 0;
+}
+
+.todayBoxOne p {
+    font-size: 26px;
+}
+
+.todayBoxOne .price {
+    margin: 14px 0;
+    font-size: 72px;
+    font-weight: 100;
+    color: #e67e22;
+}
+
+.todayBoxTwo {
+    padding: 22px 30px;
+    background: #fff;
+}
+
+.todayBoxTwo p {
+  padding-left: 40px;
+  font-size: 26px;
+  line-height: 46px;
+  min-height: 46px;
+}
+
+.todayBoxThree {
+  padding: 20px;
+  background: #fff;
+  text-align: center;
+  border-top: 1px solid #e8e8e8;
+  border-radius: 0 0 4px 4px;
+}
+
+.todayBoxThree p {
+  display: inline-block;
+  padding: 13px 40px;
+  border: 1px solid #e67e22;
+  border-radius: 999px;
+  font-size: 24px;
+  color: #e67e22;
+}
